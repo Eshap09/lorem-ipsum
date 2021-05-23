@@ -1,0 +1,26 @@
+.grocery-list{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    margin-bottom: 10px;
+}
+
+.grocrery-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -15px;
+}
+
+.edit-btn,.delete-btn{
+    background-color: transparent;
+    border: none;
+    color: green;
+}
+.delete-btn{
+    color:rgb(153, 46, 46);
+}
+
+.btn-container{
+    height:20px;
+}
